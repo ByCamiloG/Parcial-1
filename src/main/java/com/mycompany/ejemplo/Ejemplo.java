@@ -26,13 +26,15 @@ public class Ejemplo {
  
  
          // Crear un registro de usuario
-        System.out.println("registro de usuario");
-        System.out.println("Ingrese nombre del libro:");
         String Nombre1 = scanner.nextLine();
         int Identificacion1 = scanner.nextInt();
         Usuario Usuario1 = new Usuario(Nombre1,Identificacion1);
+        
+ System.out.println("\n===== RESULTADOS DEl REGISTRO =====");
+ System.out.println("El nombre de su Usuario es : " + Nombre1);
+ System.out.println("La identificaion de su Usuario es " + Identificacion1);
     }
-    
+
 }
 
 
