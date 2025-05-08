@@ -16,7 +16,6 @@ public class Ejemplo {
         System.out.println("Ingrese nombre del libro:");
         String registro1 = scanner.nextLine();
         
-        System.out.println("Nombre Registrado");
         System.out.println("Ingrese la categoria del libro (Ejemplo: Matematicas, Ingenieria, Infantil, ETC)");
         String categoria1 = scanner.nextLine();
         Biblioteca Biblioteca1 = new Biblioteca(registro1,categoria1);
@@ -24,6 +23,14 @@ public class Ejemplo {
  System.out.println("\n===== RESULTADOS DEl REGISTRO =====");
  System.out.println("El nombre de su libro es : " + registro1);
  System.out.println("La Categoria de su libro es " + categoria1);
+ 
+ 
+         // Crear un registro de usuario
+        System.out.println("registro de usuario");
+        System.out.println("Ingrese nombre del libro:");
+        String Nombre1 = scanner.nextLine();
+        int Identificacion1 = scanner.nextInt();
+        Usuario Usuario1 = new Usuario(Nombre1,Identificacion1);
     }
     
 }
