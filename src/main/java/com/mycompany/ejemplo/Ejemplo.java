@@ -26,6 +26,8 @@ public class Ejemplo {
  
  
          // Crear un registro de usuario
+        System.out.println("registro de usuario");
+        System.out.println("Ingrese nombre del usuario:");
         String Nombre1 = scanner.nextLine();
         int Identificacion1 = scanner.nextInt();
         Usuario Usuario1 = new Usuario(Nombre1,Identificacion1);
